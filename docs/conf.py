@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../financial_modeling/'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Finacial Modeling'
+project = 'Financial Modeling'
 copyright = '2021, Reza Behzadpour'
 author = 'Reza Behzadpour'
 
