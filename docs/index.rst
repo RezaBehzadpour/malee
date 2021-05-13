@@ -41,13 +41,13 @@ Return using ``financial_modeling``:
 For more information and see the full API, please refer to the
 package documentation_ or head over to the next section.
 
-.. _documentation: financial_modeling.html#module-financial_modeling
+.. _documentation: source/financial_modeling.html#module-financial_modeling
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   modules
+   source/modules
 
 Indices and tables
 ==================

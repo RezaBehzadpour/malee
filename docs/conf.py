@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../financial_modeling/'))
+sys.path.insert(0, os.path.abspath('../../financial_modeling/'))
 
 
 # -- Project information -----------------------------------------------------
