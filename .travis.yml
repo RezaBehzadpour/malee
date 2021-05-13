@@ -1,0 +1,26 @@
+language: python
+python:
+  - "3.8"
+  - "3.9"
+
+# install dependencies
+install:
+  - pip install pipenv
+  - pipenv install --dev --pre
+  
+# notify maintainers on failure
+notifications:
+  email:
+    recipients:
+      - reza.behzadpour1993@gmail.com
+    on_success: never
+    on_failure: always
+
+# testing the package and generate report for `codecov`
+script:
+  - pytest --cov=financial_modeling tests/
+
+# sending reports back to the `codecov` service 
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  - codecov
