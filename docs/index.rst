@@ -8,7 +8,7 @@ Welcome to Finacial Modeling's documentation!
 
 *Financial Modeling in Python made simple.*
 
-The `financial_modeling` Python package is a collection of 
+The ``financial_modeling`` Python package is a collection of 
 essential financial modeling functions. I wrote this package 
 for my master's degree to make my life and my classmates a 
 little easier and help others use it for educational and 
@@ -29,7 +29,7 @@ in your terminal:
 How to use it?
 ##############
 Here's a simple example of how you can calcualate Artihmetic Rate of
-Return using `financial_modeling`:
+Return using ``financial_modeling``:
 
 .. code-block:: python
 
@@ -41,13 +41,13 @@ Return using `financial_modeling`:
 For more information and see the full API, please refer to the
 package documentation_ or head over to the next section.
 
-.. _documentation: source/financial_modeling.html#module-financial_modeling
+.. _documentation: financial_modeling.html#module-financial_modeling
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   source/modules
+   modules
 
 Indices and tables
 ==================
