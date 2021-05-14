@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../financial_modeling/'))
+sys.path.insert(0, os.path.abspath('../financial_modeling/'))
 
 
 # -- Project information -----------------------------------------------------
@@ -20,6 +20,9 @@ sys.path.insert(0, os.path.abspath('../../financial_modeling/'))
 project = 'Financial Modeling'
 copyright = '2021, Reza Behzadpour'
 author = 'Reza Behzadpour'
+
+# The full version, including alpha/beta/rc tags
+release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------

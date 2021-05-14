@@ -1,11 +1,10 @@
-.. Finacial Modeling documentation master file, created by
-   sphinx-quickstart on Sat May  8 02:58:05 2021.
+.. Financial Modeling documentation master file, created by
+   sphinx-quickstart on Fri May 14 11:29:04 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Finacial Modeling's documentation!
-=============================================
-
+Welcome to Financial Modeling's documentation!
+==============================================
 *Financial Modeling in Python made simple.*
 
 The ``financial_modeling`` Python package is a collection of 
@@ -13,7 +12,7 @@ essential financial modeling functions. I wrote this package
 for my master's degree to make my life and my classmates a 
 little easier and help others use it for educational and 
 academic use cases. It's not meant to be used for production 
-environments yet. I intentionally didn't use `numpy` as the 
+environments yet. I intentionally didn't use ``numpy`` as the 
 backend for calculations to make the code easy enough for 
 everyone to understand and develop if needed.
 
