@@ -2,7 +2,8 @@
 [![codecov](https://codecov.io/gh/RezaBehzadpour/financial-modeling/branch/master/graph/badge.svg?token=CNWKBIN7US)](https://codecov.io/gh/RezaBehzadpour/financial-modeling)
 [![Documentation Status](https://readthedocs.org/projects/financial-modeling/badge/?version=latest)](https://financial-modeling.readthedocs.io/en/latest/?badge=latest)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![PyPI](https://img.shields.io/pypi/v/financial-modeling)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/financial-modeling)
 
 # Financial Modeling
 The `financial_modeling` package contains a collection of financial modeling functions.
