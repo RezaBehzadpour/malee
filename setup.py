@@ -17,6 +17,7 @@ def get_version():
             if len(s) == 2 and s[0] == "__version__":
                 return s[1][1:-1]
 
+
 CLASSIFIERS = """\
 Development Status :: 5 - Production/Stable
 Intended Audience :: Education
@@ -35,29 +36,31 @@ Topic :: Office/Business :: Financial :: Spreadsheet
 """
 
 here = path.abspath(path.dirname(__file__))
-with open(path.join(here, 'README.md'), 'r') as f:
+with open(path.join(here, "README.md"), "r") as f:
     long_description = f.read()
 
 if __name__ == "__main__":
     from setuptools import setup, find_packages
 
-    setup(name='financial_modeling',
-          version=get_version(),
-          description='Financial Modeling',
-          long_description=long_description,
-          long_description_content_type='text/markdown',
-          packages=["financial_modeling"],
-          install_requires=[],
-          author='Reza Behzadpour',
-          license='BSD 3-Clause',
-          maintainer='Financial Modeling Developers',
-          maintainer_email='reza.behzadpour1993@gmail.com',
-          python_requires='>=3.5',
-          classifiers=CLASSIFIERS.splitlines(),
-          url='https://financial-modeling.readthedocs.io',
-          download_url='https://pypi.org/project/financial-modeling/',
-          project_urls={
-              "Bug Tracker": "https://github.com/RezaBehzadpour/financial-modeling/issues",
-              "Documentation": "https://financial-modeling.readthedocs.io",
-              "Source Code": "https://github.com/RezaBehzadpour/financial-modeling",
-          })
+    setup(
+        name="financial_modeling",
+        version=get_version(),
+        description="Financial Modeling",
+        long_description=long_description,
+        long_description_content_type="text/markdown",
+        packages=["financial_modeling"],
+        install_requires=[],
+        author="Reza Behzadpour",
+        license="BSD 3-Clause",
+        maintainer="Financial Modeling Developers",
+        maintainer_email="reza.behzadpour1993@gmail.com",
+        python_requires=">=3.5",
+        classifiers=CLASSIFIERS.splitlines(),
+        url="https://financial-modeling.readthedocs.io",
+        download_url="https://pypi.org/project/financial-modeling/",
+        project_urls={
+            "Bug Tracker": "https://github.com/RezaBehzadpour/financial-modeling/issues",
+            "Documentation": "https://financial-modeling.readthedocs.io",
+            "Source Code": "https://github.com/RezaBehzadpour/financial-modeling",
+        },
+    )
