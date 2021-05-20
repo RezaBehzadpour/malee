@@ -70,3 +70,8 @@ class TestFinancialModeling:
         assert npv(numbers["Rn"], numbers["i"], numbers["i0"], numbers["pe"]) == approx(
             13206.894246738753
         ), "Incorrect Result!"
+
+    @pytest.mark.mean
+    def test_gm(self, numbers):
+        """Tests the functionality of `gm` function"""
+        assert gm(numbers["rors"]) == approx(0.03792671274950532), "Incorrect Result!"

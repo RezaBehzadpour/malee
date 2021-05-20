@@ -197,3 +197,30 @@ def npv(Rn, i, i0, pe=0):
         else:
             npv_sum += Ri / ((1 + i) ** (idx + 1))
     return npv_sum - i0
+
+
+def gm(rors):
+    """The Geometric Mean is the average of a set of products,
+    the calculation of which is commonly used to determine the
+    performance results of an investment or portfolio. It is
+    technically defined as "the nth root product of n numbers."
+
+    Args:
+        rors: List of all rors over multiple time periods
+
+    Returns:
+        The Geometric Mean of a list of returns
+
+    Example:
+        By providing a list of returns you can calculate
+        the Geometric Mean of the given list:
+
+        >>> import financial_modeling as fm
+        >>> fm.gm([.14, .06, -.05, .20])
+        0.08337520558323552
+    """
+    total = 1
+    n = len(rors)
+    for ror in rors:
+        total *= 1 + ror
+    return total ** (1 / n) - 1
