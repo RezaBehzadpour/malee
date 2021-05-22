@@ -5,6 +5,8 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/financial-modeling)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+![financia_modeling-logo](https://user-images.githubusercontent.com/29193529/119222492-dfdf8680-bb09-11eb-9fd1-031c2aa6ec77.png)
+
 # Financial Modeling
 The `financial_modeling` package contains a collection of financial modeling functions.
 
