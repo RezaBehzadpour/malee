@@ -1,10 +1,10 @@
-mali package
-============
+malee package
+=============
 
 Module contents
 ---------------
 
-.. automodule:: mali
+.. automodule:: malee
    :members:
    :undoc-members:
    :show-inheritance:

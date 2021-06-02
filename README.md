@@ -8,30 +8,30 @@
 ![financia_modeling-logo](https://user-images.githubusercontent.com/29193529/119222492-dfdf8680-bb09-11eb-9fd1-031c2aa6ec77.png)
 
 # Financial Modeling
-The `mali` package contains a collection of financial modeling functions.
+The `malee` package contains a collection of financial modeling functions.
 
 The major goal of this package is to provide you an easy to use library that implements most of the financial modeling formulas like risk and return ready to be used. This package is using `numpy` as its backend so everything is fast enough as you might expect. There are similar projects like [`numpy-financial`][1], but most of the have these two problems of 1) not having everything you might need 2) not being maintained actively. Hence this packages aims to fill this gap and be your goto library when you want financial modeling stuff.
 
-`mali` in Farsi means *Financial*. Tried so many other cool names, but I was late in the game
+`malee` in Farsi means *Financial*. Tried so many other cool names, but I was late in the game
 and they were already taken.
 
 The source code of this package is available at https://github.com/RezaBehzadpour/mali
 
 ## Install
-To install the current release of `mali`, type the following command in terminal:
+To install the current release of `malee`, type the following command in terminal:
 ```bash
-$ pip install -U mali
+$ pip install -U malee
 ```
 
 ## How to use?
 Here's how you can calculate simple **Arithmetic Return**:  
 ```python
->>> import mali
->>> mali.ar(100, 140)
+>>> import malee
+>>> malee.ar(100, 140)
 0.4
 ```
 
-For more information, see the [documentation](https://mali.readthedocs.io).
+For more information, see the [documentation](https://malee.readthedocs.io).
 
 ## License
 [BSD 3-Clause](LICENSE)

@@ -18,7 +18,7 @@ notifications:
 
 # testing the package and generate report for `codecov`
 script:
-  - pytest --cov=mali tests/
+  - pytest --cov=malee tests/
 
 # sending reports back to the `codecov` service 
 after_success:

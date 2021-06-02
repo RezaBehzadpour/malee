@@ -5,13 +5,13 @@ from os import path
 
 def get_version():
     """
-    Find the value assigned to __version__ in financial_modeling/__init__.py.
+    Find the value assigned to __version__ in malee/__init__.py.
     This function assumes that there is a line of the form
         __version__ = "version-string"
     in that file.  It returns the string version-string, or None if such a
     line is not found.
     """
-    with open("mali/__init__.py", "r") as f:
+    with open("malee/__init__.py", "r") as f:
         for line in f:
             s = [w.strip() for w in line.split("=", 1)]
             if len(s) == 2 and s[0] == "__version__":
@@ -43,12 +43,12 @@ if __name__ == "__main__":
     from setuptools import setup, find_packages
 
     setup(
-        name="mali",
+        name="malee",
         version=get_version(),
-        description="Mali",
+        description="Malee",
         long_description=long_description,
         long_description_content_type="text/markdown",
-        packages=["mali"],
+        packages=["malee"],
         install_requires=[],
         author="Reza Behzadpour",
         license="BSD 3-Clause",
@@ -56,11 +56,11 @@ if __name__ == "__main__":
         maintainer_email="reza.behzadpour1993@gmail.com",
         python_requires=">=3.5",
         classifiers=CLASSIFIERS.splitlines(),
-        url="https://mali.readthedocs.io",
-        download_url="https://pypi.org/project/mali/",
+        url="https://malee.readthedocs.io",
+        download_url="https://pypi.org/project/malee/",
         project_urls={
-            "Bug Tracker": "https://github.com/RezaBehzadpour/mali/issues",
-            "Documentation": "https://mali.readthedocs.io",
-            "Source Code": "https://github.com/RezaBehzadpour/mali",
+            "Bug Tracker": "https://github.com/RezaBehzadpour/malee/issues",
+            "Documentation": "https://malee.readthedocs.io",
+            "Source Code": "https://github.com/RezaBehzadpour/malee",
         },
     )

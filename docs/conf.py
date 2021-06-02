@@ -13,17 +13,17 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../mali"))
+sys.path.insert(0, os.path.abspath("../malee"))
 
 
 # -- Project information -----------------------------------------------------
 
-project = "Mali"
+project = "Malee"
 copyright = "2021, Reza Behzadpour"
 author = "Reza Behzadpour"
 
 # The full version, including alpha/beta/rc tags
-release = "0.0.1"
+release = "0.0.2"
 
 
 # -- General configuration ---------------------------------------------------

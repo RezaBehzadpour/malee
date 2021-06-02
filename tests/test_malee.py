@@ -1,9 +1,9 @@
-from mali import *
+from malee import *
 import pytest
 from pytest import approx
 
 
-class TestMali:
+class TestMalee:
     @pytest.fixture
     def numbers(self):
         """All of the values necessary for tests"""

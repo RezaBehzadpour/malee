@@ -1,11 +1,11 @@
-.. Mali documentation master file, created by
-   sphinx-quickstart on Wed Jun  2 23:31:27 2021.
+.. Malee documentation master file, created by
+   sphinx-quickstart on Thu Jun  3 00:31:41 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Mali's documentation!
-================================
-The ``mali`` package contains a collection of financial modeling functions.
+Welcome to Malee's documentation!
+=================================
+The ``malee`` package contains a collection of financial modeling functions.
 
 The major goal of this package is to provide you an easy to use library that 
 implements most of the financial modeling formulas like risk and return ready 
@@ -15,10 +15,10 @@ enough as you might expect. There are similar projects like `numpy-financial
 of 1) not having everything you might need 2) not being maintained actively. Hence this 
 packages aims to fill this gap and be your goto library when you want financial modeling stuff.
 
-``mali`` in Farsi means *Financial*. Tried so many other cool names, but I was late in the game
+``malee`` in Farsi means *Financial*. Tried so many other cool names, but I was late in the game
 and they were already taken.
 
-The source code of this package is available at https://github.com/RezaBehzadpour/mali
+The source code of this package is available at https://github.com/RezaBehzadpour/malee
 
 Installation
 ############
@@ -27,19 +27,18 @@ in your terminal:
 
 .. code-block:: bash
 
-      $ pip install -U financial_modeling
+      $ pip install malee
 
 How to use it?
 ##############
 Here's a simple example of how you can calcualate Artihmetic Rate of
-Return using ``financial_modeling``:
+Return using ``malee``:
 
 .. code-block:: python
 
-      >>> import mali
-      >>> mali.ar(100, 140)
+      >>> import malee
+      >>> malee.ar(100, 140)
       0.4
-
 
 .. toctree::
    :maxdepth: 2

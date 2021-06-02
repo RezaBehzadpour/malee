@@ -1,7 +1,7 @@
-mali
-====
+malee
+=====
 
 .. toctree::
    :maxdepth: 4
 
-   mali
+   malee
