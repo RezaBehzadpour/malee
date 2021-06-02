@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/RezaBehzadpour/malee.svg?branch=master)](https://travis-ci.org/RezaBehzadpour/malee)
+[![Build Status](https://travis-ci.com/RezaBehzadpour/malee.svg?branch=master)](https://travis-ci.com/RezaBehzadpour/malee)
 [![codecov](https://codecov.io/gh/RezaBehzadpour/malee/branch/master/graph/badge.svg?token=nB6VHgh6bg)](https://codecov.io/gh/RezaBehzadpour/malee)
 [![Documentation Status](https://readthedocs.org/projects/malee/badge/?version=latest)](https://malee.readthedocs.io/en/latest/?badge=latest)
 ![PyPI](https://img.shields.io/pypi/v/malee)
