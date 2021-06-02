@@ -11,7 +11,7 @@ def get_version():
     in that file.  It returns the string version-string, or None if such a
     line is not found.
     """
-    with open("financial_modeling/__init__.py", "r") as f:
+    with open("mali/__init__.py", "r") as f:
         for line in f:
             s = [w.strip() for w in line.split("=", 1)]
             if len(s) == 2 and s[0] == "__version__":
@@ -43,24 +43,24 @@ if __name__ == "__main__":
     from setuptools import setup, find_packages
 
     setup(
-        name="financial_modeling",
+        name="mali",
         version=get_version(),
-        description="Financial Modeling",
+        description="Mali",
         long_description=long_description,
         long_description_content_type="text/markdown",
-        packages=["financial_modeling"],
+        packages=["mali"],
         install_requires=[],
         author="Reza Behzadpour",
         license="BSD 3-Clause",
-        maintainer="Financial Modeling Developers",
+        maintainer="Reza Behzadpour",
         maintainer_email="reza.behzadpour1993@gmail.com",
         python_requires=">=3.5",
         classifiers=CLASSIFIERS.splitlines(),
-        url="https://financial-modeling.readthedocs.io",
-        download_url="https://pypi.org/project/financial-modeling/",
+        url="https://mali.readthedocs.io",
+        download_url="https://pypi.org/project/mali/",
         project_urls={
-            "Bug Tracker": "https://github.com/RezaBehzadpour/financial-modeling/issues",
-            "Documentation": "https://financial-modeling.readthedocs.io",
-            "Source Code": "https://github.com/RezaBehzadpour/financial-modeling",
+            "Bug Tracker": "https://github.com/RezaBehzadpour/mali/issues",
+            "Documentation": "https://mali.readthedocs.io",
+            "Source Code": "https://github.com/RezaBehzadpour/mali",
         },
     )

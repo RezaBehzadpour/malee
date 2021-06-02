@@ -1,9 +1,9 @@
-from financial_modeling import *
+from mali import *
 import pytest
 from pytest import approx
 
 
-class TestFinancialModeling:
+class TestMali:
     @pytest.fixture
     def numbers(self):
         """All of the values necessary for tests"""

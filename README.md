@@ -6,27 +6,32 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # Financial Modeling
-The `financial_modeling` package contains a collection of financial modeling functions.
+The `mali` package contains a collection of financial modeling functions.
 
-Simplicity and ease of understanding for educational use cases is my major goal for this package at the moment. Hence I didn't use any fancy libraries like `numpy` for better performance.  
+The major goal of this package is to provide you an easy to use library that implements most of the financial modeling formulas like risk and return ready to be used. This package is using `numpy` as its backend so everything is fast enough as you might expect. There are similar projects like [`numpy-financial`][1], but most of the have these two problems of 1) not having everything you might need 2) not being maintained actively. Hence this packages aims to fill this gap and be your goto library when you want financial modeling stuff.
 
-The source code of this package is available at https://github.com/RezaBehzadpour/financial_modeling
+`mali` in Farsi means *Financial*. Tried so many other cool names, but I was late in the game
+and they were already taken.
+
+The source code of this package is available at https://github.com/RezaBehzadpour/mali
 
 ## Install
-To install the current release of `financial_modeling`, type the following command in terminal:
+To install the current release of `mali`, type the following command in terminal:
 ```bash
-$ pip install -U financial_modeling
+$ pip install -U mali
 ```
 
 ## How to use?
 Here's how you can calculate simple **Arithmetic Return**:  
 ```python
->>> import financial_modeling as fm
->>> fm.ar(100, 140)
+>>> import mali
+>>> mali.ar(100, 140)
 0.4
 ```
 
-For more information, see the [documentation](https://financial-modeling.readthedocs.io).
+For more information, see the [documentation](https://mali.readthedocs.io).
 
 ## License
 [BSD 3-Clause](LICENSE)
+
+[1]: https://github.com/numpy/numpy-financial

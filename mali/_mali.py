@@ -1,6 +1,6 @@
-"""`financial_modeling` is a collection of essential financial modeling 
-functions, ready to be used for academic and educational 
-use cases. 
+"""`mali` is a collection of essential financial modeling 
+functions to make your life easier when dealing with finance 
+in python. 
 """
 from __future__ import division, absolute_import, print_function
 from math import log, e
@@ -26,8 +26,8 @@ def ar(vi, vf, D=0, W=0):
         By providing initial and final value of investment
         you can get the percentage return of your investment:
 
-        >>> import financial_modeling as fm
-        >>> fm.ar(100, 140)
+        >>> import mali
+        >>> mali.ar(100, 140)
         0.4
     """
     return (vf - D + W - vi) / vi
@@ -54,8 +54,8 @@ def lr(vi, vf, t=1):
         you can get the percentage of logarithmic return of
         your investment:
 
-        >>> import financial_modeling as fm
-        >>> fm.lr(100, 140)
+        >>> import mali
+        >>> mali.lr(100, 140)
         0.3364722366212129
     """
     return log(vf / vi, e) / t
@@ -80,8 +80,8 @@ def aar(rors):
         return by providing a list of individual returns in
         multiple periods of time:
 
-        >>> import financial_modeling as fm
-        >>> fm.aar([.1, -.05, .07])
+        >>> import mali
+        >>> mali.aar([.1, -.05, .07])
         0.04
     """
     R = 0
@@ -110,8 +110,8 @@ def twr(rors):
         calculate the time-weighted return based on that
         list:
 
-        >>> import financial_modeling as fm
-        >>> fm.aar([.10, -.05, .12])
+        >>> import mali
+        >>> mali.aar([.10, -.05, .12])
         0.056666666666666664
     """
     Rtw = 1
@@ -136,8 +136,8 @@ def an(Rtw, y=1):
         as an annual rate, here's how you can do it for 2
         years period:
 
-        >>> import financial_modeling as fm
-        >>> fm.an(0.3662, 2)
+        >>> import mali
+        >>> mali.an(0.3662, 2)
         0.1688455843266894
     """
     return (1 + Rtw) ** (1 / y) - 1
@@ -160,8 +160,8 @@ def pv(Rt, i, t=1):
         Here's a simple example of how you can calculate
         the present value of a given return and time period:
 
-        >>> import financial_modeling as fm
-        >>> fm.pv(1030, 0.05, 1)
+        >>> import mali
+        >>> mali.pv(1030, 0.05, 1)
         980.952380952381
     """
     return Rt / ((1 + i) ** t)
@@ -186,8 +186,8 @@ def npv(Rn, i, i0, pe=0):
         discount rate, and `i0` as initial amount invested
         you can calcuate NPV like this:
 
-        >>> import financial_modeling as fm
-        >>> fm.npv([5000, 8000, 12000, 30000], 0.05, 40000)
+        >>> import mali
+        >>> mali.npv([5000, 8000, 12000, 30000], 0.05, 40000)
         7065.266015703324
     """
     npv_sum = 0
@@ -215,8 +215,8 @@ def gm(rors):
         By providing a list of returns you can calculate
         the Geometric Mean of the given list:
 
-        >>> import financial_modeling as fm
-        >>> fm.gm([.14, .06, -.05, .20])
+        >>> import mali
+        >>> mali.gm([.14, .06, -.05, .20])
         0.08337520558323552
     """
     total = 1

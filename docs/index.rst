@@ -1,20 +1,24 @@
-.. Financial Modeling documentation master file, created by
-   sphinx-quickstart on Fri May 14 11:29:04 2021.
+.. Mali documentation master file, created by
+   sphinx-quickstart on Wed Jun  2 23:31:27 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Financial Modeling's documentation!
-==============================================
-*Financial Modeling in Python made simple.*
+Welcome to Mali's documentation!
+================================
+The ``mali`` package contains a collection of financial modeling functions.
 
-The ``financial_modeling`` Python package is a collection of 
-essential financial modeling functions. I wrote this package 
-for my master's degree to make my life and my classmates a 
-little easier and help others use it for educational and 
-academic use cases. It's not meant to be used for production 
-environments yet. I intentionally didn't use ``numpy`` as the 
-backend for calculations to make the code easy enough for 
-everyone to understand and develop if needed.
+The major goal of this package is to provide you an easy to use library that 
+implements most of the financial modeling formulas like risk and return ready 
+to be used. This package is using ``numpy`` as its backend so everything is fast 
+enough as you might expect. There are similar projects like `numpy-financial 
+<https://github.com/numpy/numpy-financial>`_, but most of the have these two problems 
+of 1) not having everything you might need 2) not being maintained actively. Hence this 
+packages aims to fill this gap and be your goto library when you want financial modeling stuff.
+
+``mali`` in Farsi means *Financial*. Tried so many other cool names, but I was late in the game
+and they were already taken.
+
+The source code of this package is available at https://github.com/RezaBehzadpour/mali
 
 Installation
 ############
@@ -32,15 +36,10 @@ Return using ``financial_modeling``:
 
 .. code-block:: python
 
-      >>> import financial_modeling as fm
-      >>> fm.ar(100, 140)
+      >>> import mali
+      >>> mali.ar(100, 140)
       0.4
 
-
-For more information and see the full API, please refer to the
-package documentation_ or head over to the next section.
-
-.. _documentation: source/financial_modeling.html#module-financial_modeling
 
 .. toctree::
    :maxdepth: 2

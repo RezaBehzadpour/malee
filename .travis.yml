@@ -18,7 +18,7 @@ notifications:
 
 # testing the package and generate report for `codecov`
 script:
-  - pytest --cov=financial_modeling tests/
+  - pytest --cov=mali tests/
 
 # sending reports back to the `codecov` service 
 after_success:

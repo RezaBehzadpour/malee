@@ -13,12 +13,12 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../financial_modeling"))
+sys.path.insert(0, os.path.abspath("../mali"))
 
 
 # -- Project information -----------------------------------------------------
 
-project = "Financial Modeling"
+project = "Mali"
 copyright = "2021, Reza Behzadpour"
 author = "Reza Behzadpour"
 

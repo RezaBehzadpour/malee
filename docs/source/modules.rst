@@ -1,7 +1,7 @@
-financial_modeling
-==================
+mali
+====
 
 .. toctree::
    :maxdepth: 4
 
-   financial_modeling
+   mali
