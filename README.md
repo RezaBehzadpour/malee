@@ -15,7 +15,7 @@ The major goal of this package is to provide you an easy to use library that imp
 `malee` in Farsi means *Financial*. Tried so many other cool names, but I was late in the game
 and they were already taken.
 
-The source code of this package is available at https://github.com/RezaBehzadpour/mali
+The source code of this package is available at https://github.com/RezaBehzadpour/malee
 
 ## Install
 To install the current release of `malee`, type the following command in terminal:
