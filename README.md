@@ -2,6 +2,7 @@
 [![codecov](https://codecov.io/gh/RezaBehzadpour/malee/branch/master/graph/badge.svg?token=nB6VHgh6bg)](https://codecov.io/gh/RezaBehzadpour/malee)
 [![Documentation Status](https://readthedocs.org/projects/malee/badge/?version=latest)](https://malee.readthedocs.io/en/latest/?badge=latest)
 ![PyPI](https://img.shields.io/pypi/v/malee)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/malee)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # Malee
