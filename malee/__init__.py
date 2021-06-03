@@ -1,6 +1,11 @@
 from ._malee import *
 
 
+try:
+    __import__("numpy")
+except ImportError as e:
+    raise ImportError("Unable to import necessary `numpy` library")
+
 __version__ = "0.0.4"
 __all__ = ["ar", "lr", "aar", "twr", "an", "pv", "npv", "gm"]
 __docformat__ = "google"
