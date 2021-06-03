@@ -1,4 +1,4 @@
-from .malee import *
+from ._malee import *
 
 
 __version__ = "0.0.4"

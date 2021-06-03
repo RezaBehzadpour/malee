@@ -1,5 +1,5 @@
 .. Malee documentation master file, created by
-   sphinx-quickstart on Thu Jun  3 00:31:41 2021.
+   sphinx-quickstart on Fri Jun  4 02:06:32 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -40,6 +40,7 @@ Return using ``malee``:
       >>> malee.ar(100, 140)
       0.4
 
+   
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
